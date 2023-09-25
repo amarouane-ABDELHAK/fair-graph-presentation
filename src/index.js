@@ -1,17 +1,40 @@
 var echarts = require('echarts');
 const { on } = require('events');
 
-
 var chartDom = document.getElementById('main');
 var myChart = echarts.init(chartDom);
 var option;
 
 myChart.showLoading();
-$.get('./data/fair.json', function (data) {
+
+
+
+
+$.get('./data/fair-mapping.json', function (data) {
   myChart.hideLoading();
   data.children.forEach(function (datum, index) {
    // index % 2 === 0 && (datum.collapsed = true);
    datum.collapsed = true
+
+  });
+
+  var links = [];
+  data.children.forEach(function (datum) {
+    if (datum.link) {
+      links.push({
+        source: datum.id, // Replace with the actual ID of the source node
+        target: datum.needs.id, // Replace with the actual ID of the target node
+        label: {
+          show: true,
+          formatter: function (params) {
+            return params.data.link; // Display the "needs" information here
+          },
+          position: 'middle',
+          color: 'blue', // Customize the color of the label
+          distance: 30 // Adjust this value to control the label's position along the edge
+        }
+      });
+    }
   });
 
   myChart.setOption(
@@ -20,10 +43,9 @@ $.get('./data/fair.json', function (data) {
         trigger: 'item',
         triggerOn: 'mousemove',
         formatter: (params) => {
-          console.log(params);
           return `
-          My thing: ${params.data.value}<br />
-          New Thing: ${params.data.descr}
+          Name: ${params.data.value}<br />
+          Description: ${params.data.descr} || ""
           `;
         }
       },
@@ -63,6 +85,8 @@ $.get('./data/fair.json', function (data) {
 });
 
 option && myChart.setOption(option);
+
+
 
 
 // myChart.on('mouseover', function(params) {

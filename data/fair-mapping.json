@@ -1,0 +1,219 @@
+{
+    "name": "FAIR",
+    "children": [
+        {
+            "name": "F",
+            "value": " This is Findable Dimension",
+            "children": [
+                {
+                    "name": "F1",
+                    "value": "This is F1",
+                    "descr": "(meta)data are assigned a globally unique\n and eternally persistent identifier",
+                    "children": [{
+                        "name": "Data",
+                        "value": "This is F1-D", 
+                        "link": "assigned",
+                         "children" : [{
+                            "name": "Identidier",
+                            "value": "Data Identifier",
+                            "descr": "This is Core Concept for F1-D",
+                            "children": [
+                                {
+                                    "name": "Globally unique",
+                                    "value": "This is an element of Data Identifier"
+                                },
+                                {
+                                    "name": "Eternal persistent",
+                                    "value": "This is an element of Data Identifier"
+                                 }
+			     ]
+                           }]
+                       },
+                       {
+                        "name": "Metadata",
+                        "value": "This is F1-M",
+                        "children" : [{
+                            "name": "Identidier",
+                            "value": "Metadata Identifier",
+                            "link": "assigned",
+                            "children" : [{
+                              "name": "Identidier",
+                              "value": "Metadata Identifier",
+                              "descr": "This is Core Concept for F1-M",
+                              "children": [
+                                {
+                                    "name": "Globally unique",
+                                    "value": "This is an element of Metadata Identifier"
+                                },
+                                {
+                                    "name": "Eternal persistent",
+                                    "value": "This is an element of Metadata Identifier"
+                                 }
+			     ]
+                           }]
+                       }]
+            
+                },
+                {
+                    "name": "F2",
+                    "value": "This is F2",
+                    "descr": "data are described with rich metadata (defined by R1 below)",
+                    "children": [{
+                        "name": "Data",
+                        "value": "This is F2-D", 
+                        "link": "described",
+                         "children" : [{
+                            "name": "Rich Metadata",
+                            "value": "Rich Metadata",
+                            "descr": "This is Core Concept for F2-D",
+                            "children": [
+                                {
+                                    "name": "License",
+                                    "value": "This is an element of Rich Metadata"
+                                },
+                                {
+                                    "name": "Provenance",
+                                    "value": "This is an element of Rich Metadata"
+                                },
+                                {
+                                    "name": "Discovery",
+                                    "value": "This is an element of Rich Metadata"
+                                },
+                                {
+                                    "name": "Access",
+                                    "value": "This is an element of Rich Metadata"
+                                }
+                              ]
+                         }]
+                     }]
+
+                },
+                {
+                    "name": "F3",
+                    "value": "This is F3",
+                    "descr": "metadata clearly and explicitly include the identifier of the data it describes",
+                    "children": [{
+                        "name": "Metadata",
+                        "value": "This is F3-M", 
+                        "link": "include",
+                         "children" : [{
+                            "name": "Data Identifier",
+                            "value": "Data Identifier",
+                            "descr": "This is Core Concept for F3-M",
+                              "children": [
+                                {
+                                    "name": "Clearly",
+                                    "value": "This is an element of Data Identifier"
+                                },
+                                {
+                                    "name": "Explicitly",
+                                    "value": "This is an element of Data Identifier"
+                                }
+                             ]
+                           }]
+                         }]
+                },
+                {
+                    "name": "F4",
+                    "value": "This is F4",
+                    "descr": "(meta)data are registered or indexed in a searchable resource",
+                    "children": [{
+                        "name": "Data",
+                        "value": "This is F4-D", 
+                        "link": "indexed",
+                         "children" : [{
+                            "name": "Resource",
+                            "value": "Data Resource",
+                            "descr": "This is Core Concept for F4-D",
+                              "children": [
+                                {
+                                    "name": "Searchable",
+                                    "value": "This is an element of Data Resource"
+                                }
+                             ]
+                         }]
+                    },
+                    {
+                        "name": "MetadaData",
+                        "value": "This is F4-M",
+                        "children" : [{
+                            "name": "Resource",
+                            "value": "Metadata Resource",
+                            "link": "indexed",
+                             "descr": "This is Core Concept for F4-M",
+                              "children": [
+                                {
+                                    "name": "Searchable",
+                                    "value": "This is an element of Metadata Resource"
+                                }
+                             ]
+                         }]
+                    }]
+                }]
+
+        },
+        {
+            "name": "A",
+            "value": "This is Accessible Dimension",
+            "children": [{
+                "name": "A1",
+                "value": "This is A1"
+            },
+            {
+                "name": "A1.1",
+                "value": "This is A2"
+            },
+            {
+                "name": "A1.2",
+                "value": "This is A3"
+            },
+            {
+                "name": "A",
+                "value": "This is A4"
+            }
+            ]
+        },
+        {
+            "name": "I",
+            "value": "This is Interoperable Dimension",
+            "children": [{
+                "name": "I1",
+                "value": "This is I1"
+            },
+            {
+                "name": "I2",
+                "value": "This is I2"
+            },
+            {
+                "name": "I3",
+                "value": "This is I3"
+            },
+            {
+                "name": "I4",
+                "value": "This is I4"
+            }
+            ]
+        },
+        {
+            "name": "R",
+            "value": "This is Reusable Dimension",
+            "children": [{
+                "name": "R1",
+                "value": "This is R1"
+            },
+            {
+                "name": "R1.1",
+                "value": "This is R1.1"
+            },
+            {
+                "name": "R1.2",
+                "value": "This is R1.2"
+            },
+            {
+                "name": "R1.3",
+                "value": "This is R1.3"
+            }
+           ]
+        }]
+     }]
+   }

@@ -12,6 +12,7 @@
                     "children": [{
                         "name": "Data",
                         "value": "This is Data", 
+                        "link": "assigned",
                          "children" : [{
                             "name": "Identidier",
                             "value": "Data Identifier",
