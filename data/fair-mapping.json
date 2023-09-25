@@ -14,7 +14,7 @@
                         "value": "This is F1-D", 
                         "link": "assigned",
                          "children" : [{
-                            "name": "Identidier",
+                            "name": "Identifier",
                             "value": "Data Identifier",
                             "descr": "This is Core Concept for F1-D",
                             "children": [
@@ -32,12 +32,9 @@
                        {
                         "name": "Metadata",
                         "value": "This is F1-M",
-                        "children" : [{
-                            "name": "Identidier",
-                            "value": "Metadata Identifier",
-                            "link": "assigned",
+                        "link": "assigned",
                             "children" : [{
-                              "name": "Identidier",
+                              "name": "Identifier",
                               "value": "Metadata Identifier",
                               "descr": "This is Core Concept for F1-M",
                               "children": [
@@ -214,6 +211,5 @@
                 "value": "This is R1.3"
             }
            ]
-        }]
      }]
    }
