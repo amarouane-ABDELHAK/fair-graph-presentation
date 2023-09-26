@@ -43,9 +43,13 @@ $.get('./data/fair-mapping.json', function (data) {
         trigger: 'item',
         triggerOn: 'mousemove',
         formatter: (params) => {
+          let description = ''
+          if (params.data.descr) {
+            description = `Description: ${params.data.descr}`
+          }
           return `
-          Name: ${params.data.value}<br />
-          Description: ${params.data.descr} || ""
+          Name: ${params.data.value}<br/>
+          ${description}
           `;
         }
       },
