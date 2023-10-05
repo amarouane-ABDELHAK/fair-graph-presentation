@@ -149,24 +149,108 @@
                 }]
 
         },
-        {
-            "name": "A",
-            "value": "This is Accessible Dimension",
-            "children": [{
+       {               
+            "name": "A", 
+            "value": "This is Accessibility Dimension",
+            "children": [{  
                 "name": "A1",
-                "value": "This is A1"
+                "value": "This is A1",
+                "descr": "(meta)data are retrievable by their identifier using a standardised communications protocolmeta)data are assigned a globally unique\n and eternally persistent identifier", 
+                "children": [{  
+                     "name": "Data",
+                     "value": "This is A1-D", 
+                     "link": "retrievable",
+                     "children" : [{
+                         "name": "Communication Protocol",
+                         "value": "Data Communication Protocol",
+                         "descr": "This is Core Concept for A1-D",
+                         "children": [
+                             {
+                                 "name": "Standardized",
+                                 "value": "This is an element of Data Communication Protocol"
+                             }
+                             ]
+                       }]     
+                   },
+			{
+                     "name": "Metadata",
+                     "value": "This is A1-M",
+                     "link": "retrievable",
+                     "children" : [{
+                            "name": "Communication Protocol",
+                            "value": "Metadata Communication Protocol",
+                            "descr": "This is Core Concept for A1-M",
+                            "children": [
+                               {
+                                 "name": "Standardized",
+                                 "value": "This is an element of Metadata Communication Protocol"
+                               }
+                             ]
+                         }]
+                    }]
             },
-            {
+		    {
                 "name": "A1.1",
-                "value": "This is A2"
+                "value": "This is A1.1",
+                "descr": "the protocol is open, free, and universally implementable",
+                "children": [{
+                     "name": "Protocol",
+                     "value": "This is A1.1-IS",
+                     "link": "is",
+                     "children" : [{
+                         "name": "Communication Protocol",
+                         "value": "Communication Protocol",
+                         "descr": "This is Core Concept for A1.1-IS",
+                         "children": [
+                             {
+                                 "name": "Open",
+                                 "value": "This is an element of Communication Protocol"
+                             },
+                             {
+                                 "name": "Free",
+                                 "value": "This is an element of Communication Protocol"
+                             },
+                             {
+                                 "name": "Universally Implementable",
+                                 "value": "This is an element of Communication Protocol"
+                             }
+                             ]
+                         }]
+                    }]
             },
-            {
+		    {
                 "name": "A1.2",
-                "value": "This is A3"
+                "value": "This is A1.2",
+                "descr": "the protocol allows for an authentication and authorization procedure, where necessary",
+                "children": [{
+                     "name": "Protocol",
+                     "value": "This is A1.2-IS",
+                     "link": "allows",
+                     "children" : [{
+                         "name": "Procedure",
+                         "value": "Procedure",
+                         "descr": "This is Core Concept for A1.2-IS",
+                         "children": [
+                             {
+                                 "name": "Authentication",
+                                 "value": "This is an element of Procedure"
+                             },
+                             {
+                                 "name": "Authorization",
+                                 "value": "This is an element of Procedure"
+                             }
+                             ]
+                         }]
+                    }]
             },
-            {
-                "name": "A",
-                "value": "This is A4"
+		    {
+                "name": "A2",
+                "value": "This is A2",
+                "descr": "metadata are accessible, even when the data are no longer available",
+                "children": [{
+                     "name": "Metadata",
+                     "value": "This is A2-M",
+                     "link": "accessible",
             }
             ]
         },
