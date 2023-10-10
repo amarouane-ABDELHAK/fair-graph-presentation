@@ -250,7 +250,7 @@
                 "children": [{
                      "name": "Metadata",
                      "value": "This is A2-M",
-                     "link": "accessible",
+                     "link": "accessible"
             }
             ]
         },
@@ -296,4 +296,5 @@
             }
            ]
      }]
-   }
+   }]
+}
