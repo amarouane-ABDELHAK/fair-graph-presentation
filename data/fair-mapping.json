@@ -318,7 +318,7 @@
             },
             {
                 "name": "I2",
-                "value": "This is I2"
+                "value": "This is I2",
 		"descr": "(meta)data use vocabularies that follow FAIR principles",
                 "children": [{
                     "name": "Data",
@@ -353,7 +353,7 @@
             },
             {
                 "name": "I3",
-                "value": "This is I3"
+                "value": "This is I3",
 		 "children": [{
                     "name": "Data",
                     "value": "This is I3-D",
@@ -399,7 +399,7 @@
             "value": "This is Reusable Dimension",
             "children": [{
                 "name": "R1",
-                "value": "This is R1"
+                "value": "This is R1",
 		"descr": "(meta)data are richly described with a plurality of accurate and relevant attributes",
                 "children": [{
                     "name": "Data",
@@ -442,7 +442,7 @@
             },
             {
                 "name": "R1.1",
-                "value": "This is R1.1"
+                "value": "This is R1.1",
 		"descr": "(meta)data are released with a clear and accessible data usage licence",
                 "children": [{
                     "name": "Data",
@@ -485,7 +485,7 @@
             },
             {
                 "name": "R1.2",
-                "value": "This is R1.2"
+                "value": "This is R1.2",
 		"descr": "(meta)data are associated with detailed provenance",
                 "children": [{
                     "name": "Data",
@@ -528,7 +528,7 @@
             },
             {
                 "name": "R1.3",
-                "value": "This is R1.3"
+                "value": "This is R1.3",
 		"descr": "(meta)data meet domain-relevant community standards",
                 "children": [{
                     "name": "Data",
@@ -571,4 +571,4 @@
             }
            ]
    }]
-}
+}]}
