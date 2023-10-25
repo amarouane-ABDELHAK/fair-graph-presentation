@@ -3,11 +3,11 @@
     "children": [
         {
             "name": "F",
-            "value": " This is Findable Dimension",
+            "value": " This is Findability Dimension",
             "children": [
                 {
                     "name": "F1",
-                    "value": "This is F1",
+                    "value": "This is F1 principle",
                     "descr": "(meta)data are assigned a globally unique\n and eternally persistent identifier",
                     "children": [{
                         "name": "Data",
@@ -53,7 +53,7 @@
                 },
                 {
                     "name": "F2",
-                    "value": "This is F2",
+                    "value": "This is F2 principle",
                     "descr": "data are described with rich metadata (defined by R1 below)",
                     "children": [{
                         "name": "Data",
@@ -87,7 +87,7 @@
                 },
                 {
                     "name": "F3",
-                    "value": "This is F3",
+                    "value": "This is F3 principle",
                     "descr": "metadata clearly and explicitly include the identifier of the data it describes",
                     "children": [{
                         "name": "Metadata",
@@ -112,7 +112,7 @@
                 },
                 {
                     "name": "F4",
-                    "value": "This is F4",
+                    "value": "This is F4 principle",
                     "descr": "(meta)data are registered or indexed in a searchable resource",
                     "children": [{
                         "name": "Data",
@@ -154,7 +154,7 @@
             "value": "This is Accessibility Dimension",
             "children": [{  
                 "name": "A1",
-                "value": "This is A1",
+                "value": "This is A1 principle",
                 "descr": "(meta)data are retrievable by their identifier using a standardised communications protocolmeta)data are assigned a globally unique\n and eternally persistent identifier", 
                 "children": [{  
                      "name": "Data",
@@ -191,7 +191,7 @@
             },
 		    {
                 "name": "A1.1",
-                "value": "This is A1.1",
+                "value": "This is A1.1 principle",
                 "descr": "the protocol is open, free, and universally implementable",
                 "children": [{
                      "name": "Protocol",
@@ -220,7 +220,7 @@
             },
 		    {
                 "name": "A1.2",
-                "value": "This is A1.2",
+                "value": "This is A1.2 principle",
                 "descr": "the protocol allows for an authentication and authorization procedure, where necessary",
                 "children": [{
                      "name": "Protocol",
@@ -245,7 +245,7 @@
             },
 		    {
                 "name": "A2",
-                "value": "This is A2",
+                "value": "This is A2 principle",
                 "descr": "metadata are accessible, even when the data are no longer available",
                 "children": [{
                      "name": "Metadata",
@@ -256,10 +256,10 @@
         },
         {
             "name": "I",
-            "value": "This is Interoperable Dimension",
+            "value": "This is Interoperability Dimension",
             "children": [{
                 "name": "I1",
-                "value": "This is I1",
+                "value": "This is I1 principle",
 		"descr": "(meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation",
                 "children": [{
                     "name": "Data", 
@@ -318,7 +318,7 @@
             },
             {
                 "name": "I2",
-                "value": "This is I2",
+                "value": "This is I2 principle",
 		"descr": "(meta)data use vocabularies that follow FAIR principles",
                 "children": [{
                     "name": "Data",
@@ -353,7 +353,7 @@
             },
             {
                 "name": "I3",
-                "value": "This is I3",
+                "value": "This is I3 principle",
 		 "children": [{
                     "name": "Data",
                     "value": "This is I3-D",
@@ -396,10 +396,10 @@
             },
         {
             "name": "R",
-            "value": "This is Reusable Dimension",
+            "value": "This is Reusability Dimension",
             "children": [{
                 "name": "R1",
-                "value": "This is R1",
+                "value": "This is R1 principle",
 		"descr": "(meta)data are richly described with a plurality of accurate and relevant attributes",
                 "children": [{
                     "name": "Data",
@@ -442,7 +442,7 @@
             },
             {
                 "name": "R1.1",
-                "value": "This is R1.1",
+                "value": "This is R1.1 principle",
 		"descr": "(meta)data are released with a clear and accessible data usage licence",
                 "children": [{
                     "name": "Data",
@@ -485,7 +485,7 @@
             },
             {
                 "name": "R1.2",
-                "value": "This is R1.2",
+                "value": "This is R1.2 principle",
 		"descr": "(meta)data are associated with detailed provenance",
                 "children": [{
                     "name": "Data",
@@ -528,7 +528,7 @@
             },
             {
                 "name": "R1.3",
-                "value": "This is R1.3",
+                "value": "This is R1.3 principle",
 		"descr": "(meta)data meet domain-relevant community standards",
                 "children": [{
                     "name": "Data",
