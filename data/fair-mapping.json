@@ -404,18 +404,22 @@
                 "children": [{
                     "name": "Data",
                     "value": "This is R1-D",
-                    "link": "  ",
+                    "link": " described ",
                     "children" : [{
-                          "name": " ?  ",
-                          "value": " ? ",
+                          "name": " Attribute  ",
+                          "value": " Data Attribute ",
                           "descr": "This is Core Concept for R1-D",
                           "children": [{
-                               "name": " ? ",
-                               "value": "This is an element of ?"
+                               "name": " plurality ",
+                               "value": "This is an element of Attribute"
+                             },
+			    {
+                                "name": " accurate ",
+                                "value": "This is an element of Attribute"
                              },
                              {
-                                "name": "  ",
-                                "value": "This is an element of ?"
+                                "name": " relevant ",
+                                "value": "This is an element of Attribute"
                              }
                           ]
                       }]
@@ -425,16 +429,20 @@
                      "value": "This is R1-M",
                      "link": " ",
                      "children" : [{
-                          "name": " ?  ",
-                          "value": " ? ",
+                          "name": " Attribute ",
+                          "value": " Metadata Attribute ",
                           "descr": "This is Core Concept for R1-M",
-                          "children": [{
-                               "name": "  ",
-                               "value": "This is an element of ?"
+                         "children": [{
+                               "name": " plurality ",
+                               "value": "This is an element of Attribute"
+                             },
+			    {
+                                "name": " accurate ",
+                                "value": "This is an element of Attribute"
                              },
                              {
-                                "name": "  ",
-                                "value": "This is an element of ?"
+                                "name": " relevant ",
+                                "value": "This is an element of Attribute"
                              }
                           ]
                       }]
@@ -449,16 +457,16 @@
                     "value": "This is R1.1-D",
                     "link": "  ",
                     "children" : [{
-                          "name": "   ",
-                          "value": " ",
+                          "name": " License ",
+                          "value": " Data License ",
                           "descr": "This is Core Concept for R1.1-D",
                           "children": [{
-                               "name": "  ",
-                               "value": "This is an element of ?"
+                               "name": " clear ",
+                               "value": "This is an element of License"
                              },
                              {
-                                "name": "  ",
-                                "value": "This is an element of ?"
+                                "name": "  accessible ",
+                                "value": "This is an element of License"
                              }
                           ]
                       }]
@@ -468,16 +476,16 @@
                      "value": "This is R1.1-M",
                      "link": " ",
                      "children" : [{
-                          "name": "   ",
-                          "value": "",
+                          "name": " License  ",
+                          "value": " Metadata License",
                           "descr": "This is Core Concept for R1.1-M",
                           "children": [{
-                               "name": "  ",
-                               "value": "This is an element of ?"
+                               "name": " clear ",
+                               "value": "This is an element of License"
                              },
                              {
-                                "name": "  ",
-                                "value": "This is an element of ?"
+                                "name": " accessible ",
+                                "value": "This is an element of License"
                              }
                           ]
                       }]
@@ -490,18 +498,14 @@
                 "children": [{
                     "name": "Data",
                     "value": "This is R1.2-D",
-                    "link": "  ",
+                    "link": " Associated ",
                     "children" : [{
-                          "name": "   ",
-                          "value": " ",
+                          "name": " Provenance  ",
+                          "value": " Data Provenance",
                           "descr": "This is Core Concept for R1.2-D",
                           "children": [{
-                               "name": "  ",
-                               "value": "This is an element of "
-                             },
-                             {
-                                "name": "  ",
-                                "value": "This is an element of "
+                               "name": " detailed ",
+                               "value": "This is an element of Provenance"
                              }
                           ]
                       }]
@@ -511,16 +515,16 @@
                      "value": "This is R1.2-M",
                      "link": " ",
                      "children" : [{
-                          "name": "   ",
-                          "value": "",
+                          "name": " Provenance ",
+                          "value": "Metadata Provenance ",
                           "descr": "This is Core Concept for R1.2-M",
                           "children": [{
                                "name": "  ",
                                "value": "This is an element of "
                              },
                              { 
-                                "name": "  ",
-                                "value": "This is an element of "
+                                "name": " detailed ",
+                                "value": "This is an element of Provenance"
                              }
                           ]
                       }]
@@ -535,16 +539,16 @@
                     "value": "This is R1.3-D",
                     "link": "  ",
                     "children" : [{
-                          "name": "   ",
-                          "value": "",
+                          "name": " Standard  ",
+                          "value": "Data Standard",
                           "descr": "This is Core Concept for R1.3-D",
                           "children": [{
-                               "name": "  ",
-                               "value": "This is an element of "
+                               "name": " domain-relevant ",
+                               "value": "This is an element of Standard"
                              },
                              {
-                                "name": "  ",
-                                "value": "This is an element of "
+                                "name": " community ",
+                                "value": "This is an element of Standard"
                              }
                           ]
                       }]
@@ -554,16 +558,16 @@
                      "value": "This is R1.3-M",
                      "link": " ",
                      "children" : [{
-                          "name": "   ",
-                          "value": "",
+                          "name": " Standard ",
+                          "value": "Metadata Standard",
                           "descr": "This is Core Concept for R1.3-M",
                           "children": [{
-                               "name": "  ",
-                               "value": "This is an element of "
+                               "name": " domain-relevant ",
+                               "value": "This is an element of Standard"
                              },
                              {
-                                "name": "  ",
-                                "value": "This is an element of "
+                                "name": " community ",
+                                "value": "This is an element of Standard"
                              }
                           ]
                       }]
