@@ -519,10 +519,6 @@
                           "value": "Metadata Provenance ",
                           "descr": "This is Core Concept for R1.2-M",
                           "children": [{
-                               "name": "  ",
-                               "value": "This is an element of "
-                             },
-                             { 
                                 "name": " detailed ",
                                 "value": "This is an element of Provenance"
                              }
