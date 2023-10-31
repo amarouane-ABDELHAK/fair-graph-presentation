@@ -250,7 +250,11 @@
                 "children": [{
                      "name": "Metadata",
                      "value": "This is A2-M",
-                     "link": "accessible"
+                     "children": [
+                             {
+                                 "name": "accessible",
+                                 "value": "This is an element of A2-M"
+			}]
                  }]
 	   }]
         },
