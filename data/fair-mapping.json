@@ -155,7 +155,7 @@
             "children": [{  
                 "name": "A1",
                 "value": "This is A1 principle",
-                "descr": "(meta)data are retrievable by their identifier using a standardised communications protocolmeta)data are assigned a globally unique\n and eternally persistent identifier", 
+                "descr": "(meta)data are retrievable by their identifier using a standardised communications protocol", 
                 "children": [{  
                      "name": "Data",
                      "value": "This is A1-D", 
