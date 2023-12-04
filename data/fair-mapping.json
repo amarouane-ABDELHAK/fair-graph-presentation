@@ -362,6 +362,7 @@
             {
                 "name": "I3",
                 "value": "This is I3 principle",
+		"descr": "(meta)data include qualified references to other (meta)data",    
 		 "children": [{
                     "name": "Data",
                     "value": "This is I3-D",
