@@ -76,6 +76,9 @@ $.get('./data/fair-mapping.json', function (data) {
               align: 'left'
             }
           },
+          lineStyle: {
+            width: 2
+          },
           emphasis: {
             focus: 'descendant'
           },
