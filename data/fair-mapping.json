@@ -1,582 +1,683 @@
 {
     "name": "FAIR",
     "children": [
-        {
-            "name": "F",
-            "value": " This is Findability Dimension",
+      {
+        "name": "F",
+        "value": " This is Findability Dimension",
+        "children": [
+          {
+            "name": "F1",
+            "value": "This is F1 principle",
+            "descr": "(meta)data are assigned a globally unique\n and eternally persistent identifier",
             "children": [
-                {
-                    "name": "F1",
-                    "value": "This is F1 principle",
-                    "descr": "(meta)data are assigned a globally unique\n and eternally persistent identifier",
-                    "children": [{
-                        "name": "Data",
-                        "value": "This is F1-D", 
-                        "link": "assigned",
-                         "children" : [{
-                            "name": "Identifier",
-                            "value": "Data Identifier",
-                            "descr": "This is Core Concept for F1-D",
-                            "children": [
-                                {
-                                    "name": "Globally unique",
-                                    "value": "This is an element of Data Identifier"
-                                },
-                                {
-                                    "name": "Eternal persistent",
-                                    "value": "This is an element of Data Identifier"
-                                 }
-			     ]
-                           }]
-                       },
-                       {
-                        "name": "Metadata",
-                        "value": "This is F1-M",
-                        "link": "assigned",
-                            "children" : [{
-                              "name": "Identifier",
-                              "value": "Metadata Identifier",
-                              "descr": "This is Core Concept for F1-M",
-                              "children": [
-                                {
-                                    "name": "Globally unique",
-                                    "value": "This is an element of Metadata Identifier"
-                                },
-                                {
-                                    "name": "Eternal persistent",
-                                    "value": "This is an element of Metadata Identifier"
-                                 }
-			     ]
-                           }]
-                       }]
-            
-                },
-                {
-                    "name": "F2",
-                    "value": "This is F2 principle",
-                    "descr": "data are described with rich metadata (defined by R1 below)",
-                    "children": [{
-                        "name": "Data",
-                        "value": "This is F2-D", 
-                        "link": "described",
-                         "children" : [{
-                            "name": "Rich Metadata",
-                            "value": "Rich Metadata",
-                            "descr": "This is Core Concept for F2-D",
-                            "children": [
-                                {
-                                    "name": "License",
-                                    "value": "This is an element of Rich Metadata"
-                                },
-                                {
-                                    "name": "Provenance",
-                                    "value": "This is an element of Rich Metadata"
-                                },
-                                {
-                                    "name": "Discovery",
-                                    "value": "This is an element of Rich Metadata"
-                                },
-                                {
-                                    "name": "Access",
-                                    "value": "This is an element of Rich Metadata"
-                                }
-                              ]
-                         }]
-                     }]
-
-                },
-                {
-                    "name": "F3",
-                    "value": "This is F3 principle",
-                    "descr": "metadata clearly and explicitly include the identifier of the data it describes",
-                    "children": [{
-                        "name": "Metadata",
-                        "value": "This is F3-M", 
-                        "link": "include",
-                         "children" : [{
-                            "name": "Data Identifier",
-                            "value": "Data Identifier",
-                            "descr": "This is Core Concept for F3-M",
-                              "children": [
-                                {
-                                    "name": "Clearly",
-                                    "value": "This is an element of Data Identifier"
-                                },
-                                {
-                                    "name": "Explicitly",
-                                    "value": "This is an element of Data Identifier"
-                                }
-                             ]
-                           }]
-                         }]
-                },
-                {
-                    "name": "F4",
-                    "value": "This is F4 principle",
-                    "descr": "(meta)data are registered or indexed in a searchable resource",
-                    "children": [{
-                        "name": "Data",
-                        "value": "This is F4-D", 
-                        "link": "indexed",
-                         "children" : [{
-                            "name": "Resource",
-                            "value": "Data Resource",
-                            "descr": "This is Core Concept for F4-D",
-                              "children": [
-                                {
-                                    "name": "Searchable",
-                                    "value": "This is an element of Data Resource"
-                                }
-                             ]
-                         }]
-                    },
-                    {
-                        "name": "MetadaData",
-                        "value": "This is F4-M",
-                        "children" : [{
-                            "name": "Resource",
-                            "value": "Metadata Resource",
-                            "link": "indexed",
-                             "descr": "This is Core Concept for F4-M",
-                              "children": [
-                                {
-                                    "name": "Searchable",
-                                    "value": "This is an element of Metadata Resource"
-                                }
-                             ]
-                         }]
-                    }]
-                }]
-
-        },
-       {               
-            "name": "A", 
-            "value": "This is Accessibility Dimension",
-            "children": [{  
-                "name": "A1",
-                "value": "This is A1 principle",
-                "descr": "(meta)data are retrievable by their identifier using a standardised communications protocol", 
-                "children": [{  
-                     "name": "Data",
-                     "value": "This is A1-D", 
-                     "link": "retrievable",
-                     "children" : [{
-                         "name": "Communication Protocol",
-                         "value": "Data Communication Protocol",
-                         "descr": "This is Core Concept for A1-D",
-                         "children": [
-                             {
-                                 "name": "Standardized",
-                                 "value": "This is an element of Data Communication Protocol"
-                             }
-                             ]
-                       }]     
-                   },
-			{
-                     "name": "Metadata",
-                     "value": "This is A1-M",
-                     "link": "retrievable",
-                     "children" : [{
-                            "name": "Communication Protocol",
-                            "value": "Metadata Communication Protocol",
-                            "descr": "This is Core Concept for A1-M",
-                            "children": [
-                               {
-                                 "name": "Standardized",
-                                 "value": "This is an element of Metadata Communication Protocol"
-                               }
-                             ]
-                         }]
-                    }]
-            },
-		    {
-                "name": "A1.1",
-                "value": "This is A1.1 principle",
-                "descr": "the protocol is open, free, and universally implementable",
-                "children": [{
-                     "name": "Protocol",
-                     "value": "This is A1.1-IS",
-                     "link": "is",
-                     "children" : [{
-                         "name": "Communication Protocol",
-                         "value": "Communication Protocol",
-                         "descr": "This is Core Concept for A1.1-IS",
-                         "children": [
-                             {
-                                 "name": "Open",
-                                 "value": "This is an element of Communication Protocol"
-                             },
-                             {
-                                 "name": "Free",
-                                 "value": "This is an element of Communication Protocol"
-                             },
-                             {
-                                 "name": "Universally Implementable",
-                                 "value": "This is an element of Communication Protocol"
-                             }
-                             ]
-                         }]
-                    }]
-            },
-		    {
-                "name": "A1.2",
-                "value": "This is A1.2 principle",
-                "descr": "the protocol allows for an authentication and authorization procedure, where necessary",
-                "children": [{
-                     "name": "Protocol",
-                     "value": "This is A1.2-IS",
-                     "link": "allows",
-                     "children" : [{
-                         "name": "Procedure",
-                         "value": "Procedure",
-                         "descr": "This is Core Concept for A1.2-IS",
-                         "children": [
-                             {
-                                 "name": "Authentication",
-                                 "value": "This is an element of Procedure"
-                             },
-                             {
-                                 "name": "Authorization",
-                                 "value": "This is an element of Procedure"
-                             }
-                             ]
-                         }]
-                    }]
-            },
-		    {
-                "name": "A2",
-                "value": "This is A2 principle",
-                "descr": "metadata are accessible, even when the data are no longer available",
-                "children": [{
-                     "name": "Metadata",
-                     "value": "This is A2-M",
-		    "children" : [{
+              {
+                "name": "Data",
+                "value": "This is F1-D",
+                "link": "assigned",
+                "children": [
+                  {
+                    "name": "Identifier",
+                    "value": "Data Identifier",
+                    "descr": "This is Core Concept for F1-D",
+                    "children": [
+                      {
+                        "name": "Globally unique",
+                        "value": "This is an element of Data Identifier"
+                      },
+                      {
+                        "name": "Eternal persistent",
+                        "value": "This is an element of Data Identifier"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Metadata",
+                "value": "This is F1-M",
+                "link": "assigned",
+                "children": [
+                  {
+                    "name": "Identifier",
+                    "value": "Metadata Identifier",
+                    "descr": "This is Core Concept for F1-M",
+                    "children": [
+                      {
+                        "name": "Globally unique",
+                        "value": "This is an element of Metadata Identifier"
+                      },
+                      {
+                        "name": "Eternal persistent",
+                        "value": "This is an element of Metadata Identifier"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "F2",
+            "value": "This is F2 principle",
+            "descr": "data are described with rich metadata (defined by R1 below)",
+            "children": [
+              {
+                "name": "Data",
+                "value": "This is F2-D",
+                "link": "described",
+                "children": [
+                  {
+                    "name": "Rich Metadata",
+                    "value": "Rich Metadata",
+                    "descr": "This is Core Concept for F2-D",
+                    "children": [
+                      {
+                        "name": "License",
+                        "value": "This is an element of Rich Metadata"
+                      },
+                      {
+                        "name": "Provenance",
+                        "value": "This is an element of Rich Metadata"
+                      },
+                      {
+                        "name": "Discovery",
+                        "value": "This is an element of Rich Metadata"
+                      },
+                      {
+                        "name": "Access",
+                        "value": "This is an element of Rich Metadata"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "F3",
+            "value": "This is F3 principle",
+            "descr": "metadata clearly and explicitly include the identifier of the data it describes",
+            "children": [
+              {
+                "name": "Metadata",
+                "value": "This is F3-M",
+                "link": "include",
+                "children": [
+                  {
+                    "name": "Data Identifier",
+                    "value": "Data Identifier",
+                    "descr": "This is Core Concept for F3-M",
+                    "children": [
+                      {
+                        "name": "Clearly",
+                        "value": "This is an element of Data Identifier"
+                      },
+                      {
+                        "name": "Explicitly",
+                        "value": "This is an element of Data Identifier"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "F4",
+            "value": "This is F4 principle",
+            "descr": "(meta)data are registered or indexed in a searchable resource",
+            "children": [
+              {
+                "name": "Data",
+                "value": "This is F4-D",
+                "link": "indexed",
+                "children": [
+                  {
+                    "name": "Resource",
+                    "value": "Data Resource",
+                    "descr": "This is Core Concept for F4-D",
+                    "children": [
+                      {
+                        "name": "Searchable",
+                        "value": "This is an element of Data Resource"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MetadaData",
+                "value": "This is F4-M",
+                "children": [
+                  {
+                    "name": "Resource",
+                    "value": "Metadata Resource",
+                    "link": "indexed",
+                    "descr": "This is Core Concept for F4-M",
+                    "children": [
+                      {
+                        "name": "Searchable",
+                        "value": "This is an element of Metadata Resource"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "A",
+        "value": "This is Accessibility Dimension",
+        "children": [
+          {
+            "name": "A1",
+            "value": "This is A1 principle",
+            "descr": "(meta)data are retrievable by their identifier using a standardised communications protocol",
+            "children": [
+              {
+                "name": "Data",
+                "value": "This is A1-D",
+                "link": "retrievable",
+                "children": [
+                  {
+                    "name": "Communication Protocol",
+                    "value": "Data Communication Protocol",
+                    "descr": "This is Core Concept for A1-D",
+                    "children": [
+                      {
+                        "name": "Standardized",
+                        "value": "This is an element of Data Communication Protocol"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Metadata",
+                "value": "This is A1-M",
+                "link": "retrievable",
+                "children": [
+                  {
+                    "name": "Communication Protocol",
+                    "value": "Metadata Communication Protocol",
+                    "descr": "This is Core Concept for A1-M",
+                    "children": [
+                      {
+                        "name": "Standardized",
+                        "value": "This is an element of Metadata Communication Protocol"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "A1.1",
+            "value": "This is A1.1 principle",
+            "descr": "the protocol is open, free, and universally implementable",
+            "children": [
+              {
+                "name": "Protocol",
+                "value": "This is A1.1-IS",
+                "link": "is",
+                "children": [
+                  {
+                    "name": "Communication Protocol",
+                    "value": "Communication Protocol",
+                    "descr": "This is Core Concept for A1.1-IS",
+                    "children": [
+                      {
+                        "name": "Open",
+                        "value": "This is an element of Communication Protocol"
+                      },
+                      {
+                        "name": "Free",
+                        "value": "This is an element of Communication Protocol"
+                      },
+                      {
+                        "name": "Universally Implementable",
+                        "value": "This is an element of Communication Protocol"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "A1.2",
+            "value": "This is A1.2 principle",
+            "descr": "the protocol allows for an authentication and authorization procedure, where necessary",
+            "children": [
+              {
+                "name": "Protocol",
+                "value": "This is A1.2-IS",
+                "link": "allows",
+                "children": [
+                  {
+                    "name": "Procedure",
+                    "value": "Procedure",
+                    "descr": "This is Core Concept for A1.2-IS",
+                    "children": [
+                      {
+                        "name": "Authentication",
+                        "value": "This is an element of Procedure"
+                      },
+                      {
+                        "name": "Authorization",
+                        "value": "This is an element of Procedure"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "A2",
+            "value": "This is A2 principle",
+            "descr": "metadata are accessible, even when the data are no longer available",
+            "children": [
+              {
+                "name": "Metadata",
+                "value": "This is A2-M",
+                "children": [
+                  {
                     "name": " ",
                     "value": "  ",
                     "descr": " ",
-                     "children": [{
-                                 "name": "accessible",
-                                 "value": "This is an element of A2-M"
-			}]
-                     }]
-		}]
-	   }]
-        },
-        {
-            "name": "I",
-            "value": "This is Interoperability Dimension",
-            "children": [{
-                "name": "I1",
-                "value": "This is I1 principle",
-		"descr": "(meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation",
-                "children": [{
-                    "name": "Data", 
-                    "value": "This is I1-D", 
-                    "link": " uses ",
-                    "children" : [{
-                          "name": " Language  ",
-                          "value": "Knowledge Representation Language",
-                          "descr": "This is Core Concept for I1-D",
-                          "children": [{
-                               "name": " formal ",
-                               "value": "This is an element of Language"
-                             },
-                             { 
-                               "name": " accessible",
-                               "value": "This is an element of Language"
-                             },
-                             {
-                               "name": " shared ",
-                               "value": "This is an element of Language"
-                             },
-                             {
-                                "name": " Broadly applicable ",
-                                "value": "This is an element of Language"
-                             }
-                          ]
-                      }] 
-		 },
-                { 
-                     "name": "Metadata",
-                     "value": "This is I1-M",
-                     "link": " uses ",
-                     "children" : [{
-                          "name": " Language   ",
-                          "value": " Knowledge Representation Language",
-                          "descr": "This is Core Concept for I1-M",
-                          "children": [{
-                               "name": " formal ",
-                               "value": "This is an element of Language"
-                             },
-                             {
-                               "name": " accessible",
-                               "value": "This is an element of Language"
-                             },
-                             {
-                               "name": " shared ",
-                               "value": "This is an element of Language"
-                             },
-                             {
-                                "name": " Broadly applicable ",
-                                "value": "This is an element of Language"
-                             }
-                          ]
-                      }]
-                }]
-            },
-            {
-                "name": "I2",
-                "value": "This is I2 principle",
-		"descr": "(meta)data use vocabularies that follow FAIR principles",
-                "children": [{
-                    "name": "Data",
-                    "value": "This is I2-D",
-                    "link": " uses  ",
-                    "children" : [{
-                          "name": " Vocabulary ",
-                          "value": " Data Vocabulary",
-                          "descr": "This is Core Concept for I2-D",
-                          "children": [{
-                               "name": " FAIR ",
-                               "value": "This is an element of Vocabulary"
-                             }
-                          ]
-                      }]
-                },
-		{ 
-                     "name": "Metadata",
-                     "value": "This is I2-M",
-                     "link": " uses ",
-                     "children" : [{
-                          "name": " Vocabulary ",
-                          "value": "Metadata Vocabulary",
-                          "descr": "This is Core Concept for I2-M",
-                          "children": [{
-                               "name": "FAIR",
-                               "value": "This is an element of Vocabulary"
-                             }
-                          ]
-                      }]
-                }]
-            },
-            {
-                "name": "I3",
-                "value": "This is I3 principle",
-		"descr": "(meta)data include qualified references to other (meta)data",    
-		 "children": [{
-                    "name": "Data",
-                    "value": "This is I3-D",
-                    "link": " includes ",
-                    "children" : [{
-                          "name": " Reference ",
-                          "value": "Data Reference",
-                          "descr": "This is Core Concept for I3-D",
-                          "children": [{
-                               "name": " qualified ",
-                               "value": "This is an element of Reference"
-                             },
-                             {
-                                "name": " to other (meta)data ",
-                                "value": "This is an element of Reference"
-                             }
-                          ]
-                      }]
-                },
-                { 
-                     "name": "Metadata",
-                     "value": "This is I3-M",
-                     "link": " includes ",
-                     "children" : [{
-                          "name": " Reference ",
-                          "value": "Metadata Reference",
-                          "descr": "This is Core Concept for I3-M",
-                          "children": [{
-                               "name": " qualified ",
-                               "value": "This is an element of Reference"
-                             },
-                             {
-                                "name": " to other (meta)data ",
-                                "value": "This is an element of Reference"
-                             }
-                          ]
-                      }]
-                  }]
-	      }]
-            },
-        {
-            "name": "R",
-            "value": "This is Reusability Dimension",
-            "children": [{
-                "name": "R1",
-                "value": "This is R1 principle",
-		"descr": "(meta)data are richly described with a plurality of accurate and relevant attributes",
-                "children": [{
-                    "name": "Data",
-                    "value": "This is R1-D",
-                    "link": " described ",
-                    "children" : [{
-                          "name": " Attribute  ",
-                          "value": " Data Attribute ",
-                          "descr": "This is Core Concept for R1-D",
-                          "children": [{
-                               "name": " plurality ",
-                               "value": "This is an element of Attribute"
-                             },
-			    {
-                                "name": " accurate ",
-                                "value": "This is an element of Attribute"
-                             },
-                             {
-                                "name": " relevant ",
-                                "value": "This is an element of Attribute"
-                             }
-                          ]
-                      }]
-                },
-                { 
-                     "name": "Metadata",
-                     "value": "This is R1-M",
-                     "link": " ",
-                     "children" : [{
-                          "name": " Attribute ",
-                          "value": " Metadata Attribute ",
-                          "descr": "This is Core Concept for R1-M",
-                         "children": [{
-                               "name": " plurality ",
-                               "value": "This is an element of Attribute"
-                             },
-			    {
-                                "name": " accurate ",
-                                "value": "This is an element of Attribute"
-                             },
-                             {
-                                "name": " relevant ",
-                                "value": "This is an element of Attribute"
-                             }
-                          ]
-                      }]
-                }]
-            },
-            {
-                "name": "R1.1",
-                "value": "This is R1.1 principle",
-		"descr": "(meta)data are released with a clear and accessible data usage licence",
-                "children": [{
-                    "name": "Data",
-                    "value": "This is R1.1-D",
-                    "link": "  ",
-                    "children" : [{
-                          "name": " License ",
-                          "value": " Data License ",
-                          "descr": "This is Core Concept for R1.1-D",
-                          "children": [{
-                               "name": " clear ",
-                               "value": "This is an element of License"
-                             },
-                             {
-                                "name": "  accessible ",
-                                "value": "This is an element of License"
-                             }
-                          ]
-                      }]
-                },
-                { 
-                     "name": "Metadata",
-                     "value": "This is R1.1-M",
-                     "link": " ",
-                     "children" : [{
-                          "name": " License  ",
-                          "value": " Metadata License",
-                          "descr": "This is Core Concept for R1.1-M",
-                          "children": [{
-                               "name": " clear ",
-                               "value": "This is an element of License"
-                             },
-                             {
-                                "name": " accessible ",
-                                "value": "This is an element of License"
-                             }
-                          ]
-                      }]
-                }]
-            },
-            {
-                "name": "R1.2",
-                "value": "This is R1.2 principle",
-		"descr": "(meta)data are associated with detailed provenance",
-                "children": [{
-                    "name": "Data",
-                    "value": "This is R1.2-D",
-                    "link": " Associated ",
-                    "children" : [{
-                          "name": " Provenance  ",
-                          "value": " Data Provenance",
-                          "descr": "This is Core Concept for R1.2-D",
-                          "children": [{
-                               "name": " detailed ",
-                               "value": "This is an element of Provenance"
-                             }
-                          ]
-                      }]
-                },
-                { 
-                     "name": "Metadata",
-                     "value": "This is R1.2-M",
-                     "link": " ",
-                     "children" : [{
-                          "name": " Provenance ",
-                          "value": "Metadata Provenance ",
-                          "descr": "This is Core Concept for R1.2-M",
-                          "children": [{
-                                "name": " detailed ",
-                                "value": "This is an element of Provenance"
-                             }
-                          ]
-                      }]
-                }] 
-            },
-            {
-                "name": "R1.3",
-                "value": "This is R1.3 principle",
-		"descr": "(meta)data meet domain-relevant community standards",
-                "children": [{
-                    "name": "Data",
-                    "value": "This is R1.3-D",
-                    "link": "  ",
-                    "children" : [{
-                          "name": " Standard  ",
-                          "value": "Data Standard",
-                          "descr": "This is Core Concept for R1.3-D",
-                          "children": [{
-                               "name": " domain-relevant ",
-                               "value": "This is an element of Standard"
-                             },
-                             {
-                                "name": " community ",
-                                "value": "This is an element of Standard"
-                             }
-                          ]
-                      }]
-                },
-                {
-                     "name": "Metadata",
-                     "value": "This is R1.3-M",
-                     "link": " ",
-                     "children" : [{
-                          "name": " Standard ",
-                          "value": "Metadata Standard",
-                          "descr": "This is Core Concept for R1.3-M",
-                          "children": [{
-                               "name": " domain-relevant ",
-                               "value": "This is an element of Standard"
-                             },
-                             {
-                                "name": " community ",
-                                "value": "This is an element of Standard"
-                             }
-                          ]
-                      }]
-                }]    
-            }]
-	}]
-}
+                    "children": [
+                      {
+                        "name": "accessible",
+                        "value": "This is an element of A2-M"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "I",
+        "value": "This is Interoperability Dimension",
+        "children": [
+          {
+            "name": "I1",
+            "value": "This is I1 principle",
+            "descr": "(meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation",
+            "children": [
+              {
+                "name": "Data",
+                "value": "This is I1-D",
+                "link": " uses ",
+                "children": [
+                  {
+                    "name": " Language  ",
+                    "value": "Knowledge Representation Language",
+                    "descr": "This is Core Concept for I1-D",
+                    "children": [
+                      {
+                        "name": " formal ",
+                        "value": "This is an element of Language"
+                      },
+                      {
+                        "name": " accessible",
+                        "value": "This is an element of Language"
+                      },
+                      {
+                        "name": " shared ",
+                        "value": "This is an element of Language"
+                      },
+                      {
+                        "name": " Broadly applicable ",
+                        "value": "This is an element of Language"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Metadata",
+                "value": "This is I1-M",
+                "link": " uses ",
+                "children": [
+                  {
+                    "name": " Language   ",
+                    "value": " Knowledge Representation Language",
+                    "descr": "This is Core Concept for I1-M",
+                    "children": [
+                      {
+                        "name": " formal ",
+                        "value": "This is an element of Language"
+                      },
+                      {
+                        "name": " accessible",
+                        "value": "This is an element of Language"
+                      },
+                      {
+                        "name": " shared ",
+                        "value": "This is an element of Language"
+                      },
+                      {
+                        "name": " Broadly applicable ",
+                        "value": "This is an element of Language"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "I2",
+            "value": "This is I2 principle",
+            "descr": "(meta)data use vocabularies that follow FAIR principles",
+            "children": [
+              {
+                "name": "Data",
+                "value": "This is I2-D",
+                "link": " uses  ",
+                "children": [
+                  {
+                    "name": " Vocabulary ",
+                    "value": " Data Vocabulary",
+                    "descr": "This is Core Concept for I2-D",
+                    "children": [
+                      {
+                        "name": " FAIR ",
+                        "value": "This is an element of Vocabulary"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Metadata",
+                "value": "This is I2-M",
+                "link": " uses ",
+                "children": [
+                  {
+                    "name": " Vocabulary ",
+                    "value": "Metadata Vocabulary",
+                    "descr": "This is Core Concept for I2-M",
+                    "children": [
+                      {
+                        "name": "FAIR",
+                        "value": "This is an element of Vocabulary"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "I3",
+            "value": "This is I3 principle",
+            "descr": "(meta)data include qualified references to other (meta)data",
+            "children": [
+              {
+                "name": "Data",
+                "value": "This is I3-D",
+                "link": " includes ",
+                "children": [
+                  {
+                    "name": " Reference ",
+                    "value": "Data Reference",
+                    "descr": "This is Core Concept for I3-D",
+                    "children": [
+                      {
+                        "name": " qualified ",
+                        "value": "This is an element of Reference"
+                      },
+                      {
+                        "name": " to other (meta)data ",
+                        "value": "This is an element of Reference"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Metadata",
+                "value": "This is I3-M",
+                "link": " includes ",
+                "children": [
+                  {
+                    "name": " Reference ",
+                    "value": "Metadata Reference",
+                    "descr": "This is Core Concept for I3-M",
+                    "children": [
+                      {
+                        "name": " qualified ",
+                        "value": "This is an element of Reference"
+                      },
+                      {
+                        "name": " to other (meta)data ",
+                        "value": "This is an element of Reference"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "R",
+        "value": "This is Reusability Dimension",
+        "children": [
+          {
+            "name": "R1",
+            "value": "This is R1 principle",
+            "descr": "(meta)data are richly described with a plurality of accurate and relevant attributes",
+            "children": [
+              {
+                "name": "Data",
+                "value": "This is R1-D",
+                "link": " described ",
+                "children": [
+                  {
+                    "name": " Attribute  ",
+                    "value": " Data Attribute ",
+                    "descr": "This is Core Concept for R1-D",
+                    "children": [
+                      {
+                        "name": " plurality ",
+                        "value": "This is an element of Attribute"
+                      },
+                      {
+                        "name": " accurate ",
+                        "value": "This is an element of Attribute"
+                      },
+                      {
+                        "name": " relevant ",
+                        "value": "This is an element of Attribute"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Metadata",
+                "value": "This is R1-M",
+                "link": " ",
+                "children": [
+                  {
+                    "name": " Attribute ",
+                    "value": " Metadata Attribute ",
+                    "descr": "This is Core Concept for R1-M",
+                    "children": [
+                      {
+                        "name": " plurality ",
+                        "value": "This is an element of Attribute"
+                      },
+                      {
+                        "name": " accurate ",
+                        "value": "This is an element of Attribute"
+                      },
+                      {
+                        "name": " relevant ",
+                        "value": "This is an element of Attribute"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "R1.1",
+            "value": "This is R1.1 principle",
+            "descr": "(meta)data are released with a clear and accessible data usage licence",
+            "children": [
+              {
+                "name": "Data",
+                "value": "This is R1.1-D",
+                "link": "  ",
+                "children": [
+                  {
+                    "name": " License ",
+                    "value": " Data License ",
+                    "descr": "This is Core Concept for R1.1-D",
+                    "children": [
+                      {
+                        "name": " clear ",
+                        "value": "This is an element of License"
+                      },
+                      {
+                        "name": "  accessible ",
+                        "value": "This is an element of License"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Metadata",
+                "value": "This is R1.1-M",
+                "link": " ",
+                "children": [
+                  {
+                    "name": " License  ",
+                    "value": " Metadata License",
+                    "descr": "This is Core Concept for R1.1-M",
+                    "children": [
+                      {
+                        "name": " clear ",
+                        "value": "This is an element of License"
+                      },
+                      {
+                        "name": " accessible ",
+                        "value": "This is an element of License"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "R1.2",
+            "value": "This is R1.2 principle",
+            "descr": "(meta)data are associated with detailed provenance",
+            "children": [
+              {
+                "name": "Data",
+                "value": "This is R1.2-D",
+                "link": " Associated ",
+                "children": [
+                  {
+                    "name": " Provenance  ",
+                    "value": " Data Provenance",
+                    "descr": "This is Core Concept for R1.2-D",
+                    "children": [
+                      {
+                        "name": " detailed ",
+                        "value": "This is an element of Provenance"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Metadata",
+                "value": "This is R1.2-M",
+                "link": " ",
+                "children": [
+                  {
+                    "name": " Provenance ",
+                    "value": "Metadata Provenance ",
+                    "descr": "This is Core Concept for R1.2-M",
+                    "children": [
+                      {
+                        "name": " detailed ",
+                        "value": "This is an element of Provenance"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "R1.3",
+            "value": "This is R1.3 principle",
+            "descr": "(meta)data meet domain-relevant community standards",
+            "children": [
+              {
+                "name": "Data",
+                "value": "This is R1.3-D",
+                "link": "  ",
+                "children": [
+                  {
+                    "name": " Standard  ",
+                    "value": "Data Standard",
+                    "descr": "This is Core Concept for R1.3-D",
+                    "children": [
+                      {
+                        "name": " domain-relevant ",
+                        "value": "This is an element of Standard"
+                      },
+                      {
+                        "name": " community ",
+                        "value": "This is an element of Standard"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Metadata",
+                "value": "This is R1.3-M",
+                "link": " ",
+                "children": [
+                  {
+                    "name": " Standard ",
+                    "value": "Metadata Standard",
+                    "descr": "This is Core Concept for R1.3-M",
+                    "children": [
+                      {
+                        "name": " domain-relevant ",
+                        "value": "This is an element of Standard"
+                      },
+                      {
+                        "name": " community ",
+                        "value": "This is an element of Standard"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

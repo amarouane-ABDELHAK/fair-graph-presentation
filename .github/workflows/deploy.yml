@@ -21,7 +21,7 @@ jobs:
           npm i
           npm run production
           cp index.html dist
-          cp -r data dist
+          node prepare_data.js
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
