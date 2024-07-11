@@ -25,7 +25,7 @@
                         "value": "This is an element of Data Identifier"
                       },
                       {
-                        "name": "Eternal persistent",
+                        "name": "Eternally persistent",
                         "value": "This is an element of Data Identifier"
                       }
                     ]
@@ -47,7 +47,7 @@
                         "value": "This is an element of Metadata Identifier"
                       },
                       {
-                        "name": "Eternal persistent",
+                        "name": "Eternally persistent",
                         "value": "This is an element of Metadata Identifier"
                       }
                     ]
@@ -146,13 +146,13 @@
                 ]
               },
               {
-                "name": "MetadaData",
+                "name": "Metadata",
                 "value": "This is F4-M",
+                "link": "indexed",
                 "children": [
                   {
                     "name": "Resource",
                     "value": "Metadata Resource",
-                    "link": "indexed",
                     "descr": "This is Core Concept for F4-M",
                     "children": [
                       {
