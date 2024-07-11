@@ -146,13 +146,13 @@
                 ]
               },
               {
-                "name": "MetadaData",
+                "name": "Metadata",
                 "value": "This is F4-M",
+                "link": "indexed",
                 "children": [
                   {
                     "name": "Resource",
                     "value": "Metadata Resource",
-                    "link": "indexed",
                     "descr": "This is Core Concept for F4-M",
                     "children": [
                       {
