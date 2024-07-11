@@ -14,9 +14,7 @@ function updateChildren(node) {
                     "symbol": "none",
                     "collapsed": false,
                     "label": {
-                        "color": "black",
-                        "fontStyle": "bold"
-                    },
+                        "color": "black"                    },
                     "children": oldChildren
                 }];
             }
